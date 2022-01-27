@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\days.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3C253BFB-B43C-4871-AF18-6C797B595720}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\days.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\daysEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{32D142E6-FF33-41E4-A5D7-E37383B7B685}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\days">
+      <UniqueIdentifier>{B1FDC3E3-298E-49B3-B5C7-5CAA8AAE1CE1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\days\days.Build.cs">
+      <Filter>Source\days</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\days\days.cpp">
+      <Filter>Source\days</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\days\days.h">
+      <Filter>Source\days</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\days\daysGameMode.cpp">
+      <Filter>Source\days</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\days\daysGameMode.h">
+      <Filter>Source\days</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\days\daysHud.cpp">
+      <Filter>Source\days</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\days\daysHud.h">
+      <Filter>Source\days</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\days\daysPawn.cpp">
+      <Filter>Source\days</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\days\daysPawn.h">
+      <Filter>Source\days</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\days\daysWheelFront.cpp">
+      <Filter>Source\days</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\days\daysWheelFront.h">
+      <Filter>Source\days</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\days\daysWheelRear.cpp">
+      <Filter>Source\days</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\days\daysWheelRear.h">
+      <Filter>Source\days</Filter>
+    </ClInclude>
+    <Filter Include="Source\days\Private">
+      <UniqueIdentifier>{297D2FA1-18F1-4543-A0B5-E8FFB6957B98}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\days\Private\carVehicle.cpp">
+      <Filter>Source\days\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\days\Private\Countdown.cpp">
+      <Filter>Source\days\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\days\Private\NikeVehicle.cpp">
+      <Filter>Source\days\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\days\Private\timeModeBase.cpp">
+      <Filter>Source\days\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\days\Private\VehicleGameMode.cpp">
+      <Filter>Source\days\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\days\Public">
+      <UniqueIdentifier>{6E19AB09-6C97-4757-A483-D9B9D67C760C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\days\Public\carVehicle.h">
+      <Filter>Source\days\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\days\Public\Countdown.h">
+      <Filter>Source\days\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\days\Public\NikeVehicle.h">
+      <Filter>Source\days\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\days\Public\timeModeBase.h">
+      <Filter>Source\days\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\days\Public\VehicleGameMode.h">
+      <Filter>Source\days\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
